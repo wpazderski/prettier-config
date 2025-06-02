@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json.schemastore.org/jsconfig",
+    "compilerOptions": {
+        /* Visit https://aka.ms/tsconfig to read more about this file */
+
+        /* Language and Environment */
+        "target": "ES2024",
+        "lib": ["ES2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator", "ESNext.Promise"],
+
+        /* Modules */
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "allowImportingTsExtensions": true,
+
+        /* JavaScript Support */
+        "allowJs": true,
+        "checkJs": true,
+
+        /* Emit */
+        "noEmit": true,
+
+        /* Interop Constraints */
+        "erasableSyntaxOnly": true,
+        "forceConsistentCasingInFileNames": true,
+
+        /* Type Checking */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "allowUnusedLabels": false,
+
+        /* Completeness */
+        "skipLibCheck": true
+    },
+    "include": ["configs/**/*", ".prettierrc.js"],
+    "exclude": ["node_modules"]
+}

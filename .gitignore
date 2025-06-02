@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Private notes
+notes.todo
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.log*
