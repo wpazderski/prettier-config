@@ -47,3 +47,9 @@ pnpm exec prettier . --check
 ## Available configs
 
 Currently only one config is provided - `base`.
+
+## Related projects
+
+- [@wpazderski/eslint-config](https://github.com/wpazderski/eslint-config),
+- [@wpazderski/typescript-config](https://github.com/wpazderski/typescript-config)
+- [@wpazderski/configs-example-project](https://github.com/wpazderski/configs-example-project) - an example project that shows how to use all configs.
