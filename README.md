@@ -52,4 +52,6 @@ Currently only one config is provided - `base`.
 
 - [@wpazderski/eslint-config](https://github.com/wpazderski/eslint-config),
 - [@wpazderski/typescript-config](https://github.com/wpazderski/typescript-config)
-- [@wpazderski/configs-example-project](https://github.com/wpazderski/configs-example-project) - an example project that shows how to use all configs.
+- [@wpazderski/playwright-config](https://github.com/wpazderski/playwright-config),
+- [@wpazderski/playwright-utils](https://github.com/wpazderski/playwright-utils),
+- [@wpazderski/configs-utils-example](https://github.com/wpazderski/configs-utils-example) - an example project that shows how to use all configs and utils.
