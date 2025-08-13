@@ -26,13 +26,16 @@
     "scripts": {
         "prettier-check": "prettier ./ --check",
         "prettier-fix": "prettier ./ --write",
-        "check-all": "run-s prettier-check",
+        "check-licenses": "check-licenses",
+        "check-outdated-packages": "check-outdated-packages",
+        "check-all": "run-s prettier-check check-licenses check-outdated-packages",
         "pre-commit-checks": "run-s check-all"
     },
     "devDependencies": {
+        "@wpazderski/node-package-tools": "^1.0.0",
         "npm-run-all": "^4.1.5",
-        "prettier": "^3.5.3",
-        "typescript": "^5.8.3"
+        "prettier": "^3.6.2",
+        "typescript": "^5.9.2"
     },
     "peerDependencies": {
         "prettier": "^3.5.3"
