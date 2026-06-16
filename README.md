@@ -48,6 +48,20 @@ pnpm exec prettier . --check
 
 Currently only one config is provided - `base`.
 
+## Merging configs
+
+A `mergeConfigs` helper is provided for combining multiple configs.
+Later configs override earlier ones for scalar options; the `plugins` and `overrides` arrays are concatenated (and `plugins` is de-duplicated):
+
+```js
+import { base } from "@wpazderski/prettier-config/base.js";
+import { mergeConfigs } from "@wpazderski/prettier-config/mergeConfigs.js";
+
+export default mergeConfigs(base, {
+    printWidth: 100,
+});
+```
+
 ## Related projects
 
 See [https://pazderski.dev/projects/](https://pazderski.dev/projects/) for other projects that provide various configs, utils, tools and examples.
